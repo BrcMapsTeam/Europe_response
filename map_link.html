@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Info -->
+    <title>CartoDB Maps</title>
+    <meta charset="utf-8" />
+
+
+    <!-- Mobile Optimization -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/map_link.css" />
+
+    <!-- Javascript Libraries -->
+
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-46399763-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+    </script>
+</head>
+<body class="container">
+    <header>
+        <div class="row">
+                <div class="col-md-8">
+                    <h1 class="title">Europe Population Movement Response:<br/>
+                    Interactive Maps</h1>
+                    <p>Click on an image of a map to be taken to an interactive platform where you can explore data regarding the migration response across Europe.</p>
+                </div>
+                <div class="col-md-4">
+                    <a target="_blank" href="http://www.ifrc.org"><img alt="IFRC Logo" id="logo" src="img/IFRC_logo_English_CMYK.svg" /></a>
+                    <br/>
+                    <p class="desc">Produced by SIMS.</p>
+                    <a id="portal" class="btn right btn-primary btn-sm" href="http://brcmapsteam.github.io/Europe_response/">Return to IM Portal</a>
+                </div>
+            </div>
+    </header>
+
+    <nav></nav>
+
+    <main>
+        <div class="col-md-6">
+            <a target="_blank" href="https://nlrc.cartodb.com/u/redcross-sims/viz/5bae2afc-cf36-11e5-a615-0e31c9be1b51/embed_map"><img class="map_link" width="100%" height="500" src="img/AoIs_HealthServices_map.png" /></a>
+            <h2>Areas of Intervention and Health Services</h2>
+        </div>
+        <div class="col-md-6">
+            <a target="_blank" href="https://nlrc.cartodb.com/u/redcross-sims/viz/582c7122-eb8d-11e5-8e12-0e31c9be1b51/embed_map"><img class="map_link" width="100%" height="500" src="img/Greece_Situation_map.png" /></a>
+            <h2>Greece Situation Map: Population/Capacity of Hotspots and Red Cross/Red Crescent Distributions</h2>
+        </div>
+    </main>
+
+    <footer></footer>
+</body>
+</html>

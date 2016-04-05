@@ -1,0 +1,32 @@
+h2 {
+	text-align: center;
+}
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.desc {
+	font-size: 1em;
+    color: #777;
+    text-align: right;
+}
+
+.right {
+	float: right;
+}
+
+.btn {
+	background: #e60000;  /* button colour */
+	color: #ffffff;  	  /* text colour */
+	border: #e60000;
+	font-weight: bold;
+	font-size: 13px;
+	
+}
+
+.map_link {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
