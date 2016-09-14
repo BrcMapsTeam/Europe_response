@@ -98,16 +98,10 @@ p {
     padding-bottom: 20px;
 }
 
-.container {
-    width: 80%;
-}
-
 .center-block {margin: 0 auto;}
 
 
-.footer {
-    margin-bottom: 50px;
-}
+.footer { margin-bottom: 50px; }
 
 .leftline {
     border-left-width:1px;
@@ -190,10 +184,6 @@ background-image: -moz-linear-gradient(top, #e60000, #800000);
 border: 1px solid #979797; 
 }
 
-.button.icon {
-padding-left: 1px;      
-}
-
 .button.icon span{
 padding-left: 36px;
 background: url(../img/rcrc_symbols.gif) no-repeat 0 -4px;
@@ -208,3 +198,10 @@ background-size: 80px, 50px;
     width:26px;
     height:16px;
 }
+
+/* Breakpoints */
+@media (min-width: 963px) and (max-width: 1090px) { .button { width: 90%; height: 90%; } .button span { width: 90%; height: 90%; font-size: 80%;} }
+@media (min-width: 760px) and (max-width: 962px)  { .button { width: 90%; height: 90%; } .button span { width: 90%; height: 90%; font-size: 80%;} }
+@media (min-width: 615px) and (max-width: 759px)  { main { margin-top: 70px; } .img-center { margin-top: 10px; margin-bottom: 10px;} .list-group-item { font-size: .85em; } .footer { font-size: .85em; height: 80px; } }
+@media (min-width: 400px) and (max-width: 614px)  { main { margin-top: 110px; } .img-center { margin-top: 10px; margin-bottom: 10px;} .list-group-item { font-size: .85em; } .footer { font-size: .8em; height: 80px; } }
+@media (max-width: 399px)                         { main { margin-top: 150px; } .list-group-item { font-size: .8em; } .footer { font-size: .8em; height: 110px; } }
